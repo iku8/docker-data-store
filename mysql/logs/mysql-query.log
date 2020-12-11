@@ -1,0 +1,26 @@
+/usr/sbin/mysqld, Version: 8.0.16 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-12-11T17:08:11.860200Z	    7 Connect	
+2020-12-11T17:08:11.861819Z	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-12-11T17:08:11.869122Z	    7 Quit	
+2020-12-11T17:08:34.499729Z	    8 Connect	user@172.29.0.1 on myapp using SSL/TLS
+2020-12-11T17:08:34.508524Z	    8 Query	SELECT version()
+2020-12-11T17:08:34.512137Z	    8 Query	SET NAMES utf8
+2020-12-11T17:08:34.515917Z	    8 Query	SHOW VARIABLES
+2020-12-11T17:08:34.534241Z	    8 Query	SELECT table_name as table_name,column_name as column_name,column_type as column_type FROM information_schema.columns WHERE table_schema='myapp'AND data_type='enum'
+2020-12-11T17:08:34.541986Z	    8 Query	show full tables from `myapp`
+2020-12-11T17:08:34.552410Z	    8 Query	SELECT ROUTINE_SCHEMA as function_schema,ROUTINE_NAME as function_name,ROUTINE_DEFINITION as create_statement,ROUTINE_TYPE as function_type FROM information_schema.routines where ROUTINE_SCHEMA='myapp'
+/usr/sbin/mysqld, Version: 8.0.16 (MySQL Community Server - GPL). started with:
+Tcp port: 0  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2020-12-11T17:19:53.079185Z	    7 Connect	
+2020-12-11T17:19:53.081484Z	    7 Query	SELECT @@skip_networking, @@skip_name_resolve, @@have_ssl='YES', @@ssl_key, @@ssl_ca, @@ssl_capath, @@ssl_cert, @@ssl_cipher, @@ssl_crl, @@ssl_crlpath, @@tls_version
+2020-12-11T17:19:53.087003Z	    7 Quit	
+2020-12-11T17:20:49.932294Z	    8 Connect	user@172.29.0.1 on myapp using SSL/TLS
+2020-12-11T17:20:49.939352Z	    8 Query	SELECT version()
+2020-12-11T17:20:49.943305Z	    8 Query	SET NAMES utf8
+2020-12-11T17:20:49.947334Z	    8 Query	SHOW VARIABLES
+2020-12-11T17:20:50.167640Z	    8 Query	SELECT table_name as table_name,column_name as column_name,column_type as column_type FROM information_schema.columns WHERE table_schema='myapp'AND data_type='enum'
+2020-12-11T17:20:50.178532Z	    8 Query	show full tables from `myapp`
+2020-12-11T17:20:50.188658Z	    8 Query	SELECT ROUTINE_SCHEMA as function_schema,ROUTINE_NAME as function_name,ROUTINE_DEFINITION as create_statement,ROUTINE_TYPE as function_type FROM information_schema.routines where ROUTINE_SCHEMA='myapp'

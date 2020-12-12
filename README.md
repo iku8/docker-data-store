@@ -7,18 +7,22 @@
 
 ## Usage
 
+`docker-compose up`
+
 ## Envoiroment
 
-### Default Environment
+### MySQL
 
-#### MySQL
+#### Default Environment
+
+
 - user: `user`
 - pass: `user!`
 - root pass: `root`
 - db: `myapp`
 - port: `3306`
 
-### Custom Environment
+#### Custom Environment
 
 ```cp .env.example .env```
 
